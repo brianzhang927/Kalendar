@@ -1,3 +1,57 @@
-nav ul {
-  list-style: none;
+.nav {
+  position: absolute;
+  width: 1425px;
+  height: 143px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Monda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 65px;
+
+  background: #bee6bd;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.dash {
+  position: absolute;
+  left: 8.76%;
+  right: 4.78%;
+  top: 30.83%;
+  bottom: 22.77%;
+
+  color: #000000;
+}
+
+.tasks {
+  position: absolute;
+  left: 33.12%;
+  right: 58.33%;
+  top: 28.67%;
+  bottom: 28.67%;
+
+  color: #000000;
+}
+
+.message {
+  position: absolute;
+  left: 57.57%;
+  right: 30.14%;
+  top: 25.87%;
+  bottom: 43.36%;
+
+  color: #000000;
+}
+
+.profile {
+  position: absolute;
+  left: 84.24%;
+  right: 6.11%;
+  top: 25.87%;
+  bottom: 43.36%;
+
+  color: #000000;
 }
