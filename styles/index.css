@@ -1,7 +1,6 @@
 <<<<<<< HEAD
 ul {list-style-type: none;}
 
-/* ------------- NAV STARTS HERE --------------- */
 .nav {
   position: absolute;
   width: 1425px;
@@ -55,8 +54,6 @@ ul {list-style-type: none;}
   top: 25.87%;
   bottom: 43.36%;
 }
-
-/* ------------- NAV ENDS HERE --------------- */
 
 .month {
   padding: 70px 25px;
