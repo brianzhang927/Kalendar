@@ -7,7 +7,7 @@ body {
 .month {
   padding: 70px 25px;
   width: 96.5%;
-  background: #BEE5BD;
+  background: #1f8e99;
   text-align: center;
   color: black;
 }
@@ -43,6 +43,7 @@ nav ul li{
 nav ul li a{
   text-decoration: none;
   padding: 20px;
+  color: black;
 }
 
 nav a:hover{
