@@ -4,14 +4,6 @@ body {
   padding: 0;
 }
 
-.month {
-  padding: 70px 25px;
-  width: 96.5%;
-  background: #1f8e99;
-  text-align: center;
-  color: black;
-}
-
 /* nav bar style */
 nav{
   display: inline-block;
@@ -46,9 +38,43 @@ nav a:hover{
   color: black;
 }
 
+main{
+  margin: auto;
+}
+
 /* Announcements */
 .alert {
   background-color: #FECACA;
+}
+
+/* calendar */
+.slides_fade img{
+  width: 100%;
+  padding-bottom: 20px;
+}
+.month_container{
+  position: relative;
+  margin: auto;
+}
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  font-weight: bold;
+  font-size: 200%;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  color: white;
+}
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: #b63232;
 }
 
 /* Profile page */
