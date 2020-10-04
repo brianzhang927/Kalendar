@@ -50,3 +50,14 @@ nav a:hover{
 .alert {
   background-color: #FECACA;
 }
+
+/* Profile page */
+.maker {
+  display: flex;
+  flex-direction: row;
+}
+
+.maker div {
+  margin: 10%;
+  margin-top: 0;
+}
