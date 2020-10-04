@@ -2,35 +2,15 @@ html {
     font-family: sans-serif;
 }
 
-.face ul {
-
-}
 h1 {
     margin: 0px;
 }
 
-.face {
-    position: relative;
-    width: 806px;
-    height: 348px;
-    left: 446px;
-    top: 910px;
+ul{
+    list-style-type: none;
+    text-align: left;
 
 }
-
-.clothing {
-    position: absolute;
-    width: 657px;
-    height: 246px;
-    left: 581px;
-    top: 1343px;
-}
-
-.profile{
-  display: flex;
-  flex-direction: row;
-}
-
 .maker {
   display: flex;
   flex-direction: row;
@@ -41,10 +21,118 @@ h1 {
   margin-top: 0;
 }
 
-.basic_info2{
+.basic_info2 {
     position: absolute;
     width: 296px;
     height: 55px;
     left: 500px;
     top: 100px;
+}
+/** face options **/
+.face {
+    position: absolute;
+    width: 806px;
+    height: 348px;
+    left: 100px;
+    top: 500px;
+    border-color: black;
+    border-width: 3px;
+}
+
+
+.face h3 {
+    text-align: center;
+}
+
+.skincolor {
+    position: absolute;
+    width: 124px;
+    height: 288px;
+    left: 0px;
+    top: 50px;
+}
+.hair {
+    position: absolute;
+    width: 124px;
+    height: 285px;
+    left: 150px;
+    top: 50px;
+}
+
+.haircolor {
+    position: absolute;
+    width: 124px;
+    height: 288px;
+    left: 300px;
+    top: 50px;
+}
+
+.eyes {
+    position: absolute;
+    width: 124px;
+    height: 288px;
+    left: 450px;
+    top: 50px;
+}
+
+.mouth {
+    position: absolute;
+    width: 124px;
+    height: 288px;
+    left: 600px;
+    top: 50px;
+}
+/** clothing options **/
+.clothing {
+    position: absolute;
+    width: 657px;
+    height: 246px;
+    left: 100px;
+    top: 800px;
+}
+
+.shirtcolor {
+    position: absolute;
+    width: 657px;
+    height: 246px;
+    left: 0px;
+    top: 50px;
+}
+
+.hats {
+    position: absolute;
+    width: 657px;
+    height: 246px;
+    left: 200px;
+    top: 50px;
+}
+
+.hats h3 {
+    position: absolute;
+    left: 30px;
+}
+
+.hats ul{
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+
+.glasses {
+    position: absolute;
+    width: 657px;
+    height: 246px;
+    left: 450px;
+    top: 50px;
+}
+
+.glasses ul {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+
+.glasses h3 {
+    position: absolute;
+    left: 30px;
 }
