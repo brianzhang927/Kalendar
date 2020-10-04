@@ -9,6 +9,7 @@ body {
   width: 96.5%;
   background: #BEE5BD;
   text-align: center;
+  color: black;
 }
 
 .month ul {
@@ -22,6 +23,7 @@ nav{
   background-color: #BEE5BD;
   width: 100%;
   margin: 0;
+  color: black;
   font-family: "Gill Sans", sans-serif;
   font-variant: small-caps;
   font-size: 110%;
@@ -45,4 +47,5 @@ nav ul li a{
 
 nav a:hover{
   background-color: #C3E3E3;
+  color: black;
 }
