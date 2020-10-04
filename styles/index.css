@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+/* body styling */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+=======
+ul {list-style-type: none;}
+
 .nav {
   position: absolute;
   width: 1425px;
@@ -23,8 +33,6 @@
   right: 4.78%;
   top: 30.83%;
   bottom: 22.77%;
-
-  color: #000000;
 }
 
 .tasks {
@@ -34,8 +42,6 @@
   right: 58.33%;
   top: 28.67%;
   bottom: 28.67%;
-
-  color: #000000;
 }
 
 .message {
@@ -45,8 +51,6 @@
   right: 30.14%;
   top: 25.87%;
   bottom: 43.36%;
-
-  color: #000000;
 }
 
 .profile {
@@ -56,6 +60,47 @@
   right: 6.11%;
   top: 25.87%;
   bottom: 43.36%;
+}
 
-  color: #000000;
+.month {
+  padding: 70px 25px;
+  width: 96.5%;
+  background: rgb(125, 185, 185);
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+>>>>>>> d5b9eb5635d104e7e1ae41e996aa1b3d82147bb7
+/* nav bar style */
+nav{
+  display: inline-block;
+  background-color: #BEE5BD;
+  width: 100%;
+  margin: 0;
+  font-family: "Gill Sans", sans-serif;
+  font-variant: small-caps;
+  font-size: 110%;
+  position: fixed;
+}
+
+nav ul{
+  text-align: center;
+  padding: 0;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 4px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav a:hover{
+  background-color: #C3E3E3;
 }
