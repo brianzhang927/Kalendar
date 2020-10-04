@@ -2,8 +2,9 @@
   list-style-type: none;
   position: relative;
   top: 100px;
-  color: coral;
+  color: #44D362;
   font-family: cursive;
+  font-size: 130%;
 }
 
 .class-box {
