@@ -54,6 +54,10 @@ main{
   padding: 10px;
 }
 
+.alerts p {
+  padding-left: 20px;
+}
+
 /* calendar */
 .slides_fade img{
   width: 100%;
