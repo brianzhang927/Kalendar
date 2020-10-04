@@ -15,6 +15,7 @@ nav{
   font-variant: small-caps;
   font-size: 110%;
   position: fixed;
+  z-index:1;
 }
 
 nav ul{
@@ -93,3 +94,33 @@ main{
   margin: 10%;
   margin-top: 0;
 }
+
+.info{
+    position: absolute;
+    width: 296px;
+    height: 55px;
+    left: 500px;
+    top: 100px;
+}
+
+h1 {
+    margin: 0px;
+    padding-top: 40px;
+}
+
+/* .face {
+    position: relative;
+    width: 806px;
+    height: 348px;
+    left: 446px;
+    top: 910px;
+
+}
+
+.clothing {
+    position: absolute;
+    width: 657px;
+    height: 246px;
+    left: 581px;
+    top: 1343px;
+} */
