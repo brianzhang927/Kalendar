@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <title>Tasks</title>
+    <link rel="stylesheet" href="styles/task.css" />
     <link rel="stylesheet" href="styles/index.css"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
   </head>
+
   <body>
     <nav class="nav">
       <ul>
@@ -17,18 +22,96 @@
 
     <div class="daily-task">
       <div class="title">Daily Tasks</div>
-      <div class="break"></div>
+      <br></br>
+      <div class="addTask">
+        <input type="text" placeholder="Add a Task">
+        <button>Add</button>
       </div>
 
-      <div class="points">
-        <div class="title">Points</div>
-        <div class="break"></div>
+      <br></br>
+      <br></br>
+
+      <ol class="notCompleted">
+      			<h3>Not Completed</h3>
+      		</ol>
+
+          <br></br>
+
+      		<ol class="Completed">
+      			<h3>Completed</h3>
+      		</ol>
+      	</div>
+
+        <script>
+      		const input = document.querySelector('input');
+      		const btn = document.querySelector('.addTask > button');
+
+      		btn.addEventListener('click', addList);
+      		input.addEventListener('keyup', (e)=>{
+      			(e.keyCode === 13 ? addList(e) : null);
+      		})
+
+      		function addList(e){
+      			const notCompleted = document.querySelector('.notCompleted');
+      			const Completed = document.querySelector('.Completed');
+
+      			const newLi = document.createElement('li');
+      			const checkBtn = document.createElement('button');
+      			const delBtn = document.createElement('button');
+
+      			checkBtn.innerHTML = '<i class="fa fa-check"></i>';
+      			delBtn.innerHTML = '<i class="fa fa-trash"></i>';
+
+
+      			if(input.value !==''){
+      				newLi.textContent = input.value;
+      				input.value = '';
+      				notCompleted.appendChild(newLi);
+      				newLi.appendChild(checkBtn);
+      				newLi.appendChild(delBtn);
+      			}
+
+      			checkBtn.addEventListener('click', function(){
+      				const parent = this.parentNode;
+      				parent.remove();
+      				Completed.appendChild(parent);
+      				checkBtn.style.display = 'none';
+      			});
+
+      			delBtn.addEventListener('click', function(){
+      				const parent = this.parentNode;
+      				parent.remove();
+      			});
+      		}
+      	</script>
+
+        <div class="points">
+          <div class="title-2">Points</div>
+          <br></br>
+          <h3>Today        --------------------------------------------------------       500</h3>
+          <h3>This Week        -------------------------------------------------       1500</h3>
+          <h3>To Next Level        ---------------------------------------------       1200</h3>
+
+          <div class="break3"></div>
+          <h3 align="center">Strive for progress, not perfection!!</h3>
         </div>
 
-      <div class="class-leaderboard">
-        <div class="title-3">Class Leaderboard</div>
-        <div class="break-3"></div>
-    </div>
+        <div class="leaderboard">
+          <div class="title-3">Class Leaderboard</div>
+          <div class="break2"></div>
+
+          <h3>Me        ------------------------------------------------------       3rd  -  500</h3>
+
+          <div class="break">
+          </div>
+          <div class="break3"></div>
+          <h3>Jake        ----------------------------------------------------     1st  -  1000</h3>
+          <h3>Rachel        -------------------------------------------------       2nd  -  900</h3>
+          <h3>Liam        ----------------------------------------------------      4th  -  700</h3>
+          <div class="break3"></div>
+          <h4 align="center">Weekly Joke: Who is the kind of your desk? --- Your ruler!!</h4>
+
+        </div>
 
   </body>
 </html>
