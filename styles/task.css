@@ -77,11 +77,15 @@
   height: 280px;
   left: 862px;
   top: 189px;
-  padding: 20px;
 
   background: #FFB393;
   border: 1px solid #000000;
   box-sizing: border-box;
+}
+.data{
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .leaderboard{
@@ -90,14 +94,19 @@
   height: 326px;
   left: 862px;
   top: 506px;
-  padding: 20px;
 
   background: #C6BDFF;
   border: 1px solid #000000;
   box-sizing: border-box;
 }
+.leaders{
+  padding: 12px;
+  font-size: 12px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
 .break {
-  position: absolute;
+  position: relative;
   width: 487px;
   height: 0px;
   left: 0px;
@@ -113,6 +122,11 @@
 .break3{
   display: block;
   margin: 25px 0;
+}
+
+.break4{
+  display: block;
+  margin: 5px 0;
 }
 
 .h4{
