@@ -208,3 +208,7 @@ li button{
 	outline: none;
 	cursor: pointer;
 }
+
+h3 {
+  padding-left: 20px;
+}
