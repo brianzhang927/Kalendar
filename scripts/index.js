@@ -1,17 +1,17 @@
 $(document).ready(function (){
   var images = [
-    "months/jan.png",
-    "months/feb.png",
-    "months/march.png",
-    "months/april.png",
-    "months/may.png",
-    "months/june.png",
-    "months/july.png",
-    "months/aug.png",
-    "months/sept.png",
-    "months/oct.png",
-    "months/nov.png",
-    "months/dec.png",
+    "images/months/jan.png",
+    "images/months/feb.png",
+    "images/months/march.png",
+    "images/months/april.png",
+    "images/months/may.png",
+    "images/months/june.png",
+    "images/months/july.png",
+    "images/months/aug.png",
+    "images/months/sept.png",
+    "images/months/oct.png",
+    "images/months/nov.png",
+    "images/months/dec.png",
   ]
   var imageIndex = 0;
 
