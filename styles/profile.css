@@ -18,14 +18,14 @@ ul{
 
 .maker div {
   margin: 10%;
-  margin-top: 0;
+  margin-top: 0px;
 }
 
 .basic_info2 {
     position: absolute;
     width: 296px;
     height: 55px;
-    left: 500px;
+    left: 600px;
     top: 100px;
 }
 /** face options **/
@@ -88,7 +88,7 @@ ul{
     width: 657px;
     height: 246px;
     left: 100px;
-    top: 800px;
+    top: 850px;
 }
 
 .shirtcolor {
