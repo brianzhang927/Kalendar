@@ -12,11 +12,6 @@ body {
   color: black;
 }
 
-.month ul {
-  margin: 0;
-  padding: 0;
-}
-
 /* nav bar style */
 nav{
   display: inline-block;
@@ -49,4 +44,9 @@ nav ul li a{
 nav a:hover{
   background-color: #C3E3E3;
   color: black;
+}
+
+/* Announcements */
+.alert {
+  background-color: #FECACA;
 }
