@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Gill Sans", sans-serif;
 }
 
 /* nav bar style */
@@ -25,8 +26,8 @@ nav ul{
 nav ul li{
   display: inline-block;
   padding: 4px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 nav ul li a{
@@ -84,6 +85,11 @@ main{
 }
 
 /* Profile page */
+.profile{
+  display: flex;
+  flex-direction: row;
+}
+
 .maker {
   display: flex;
   flex-direction: row;
